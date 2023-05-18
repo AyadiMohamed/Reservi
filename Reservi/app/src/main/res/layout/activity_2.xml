@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3DFE9"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/textview_tunisian_states"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/image1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="6dp"
+        android:shadowColor="@color/black"
+        android:text="@string/states"
+        android:textColor="#7E4DBD"
+        android:textSize="21sp"
+        android:textStyle="italic|bold" />
+
+    <Spinner
+        android:id="@+id/spinner_dispaly_gouvernorat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:outlineSpotShadowColor="#F474E0"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textview_tunisian_discrits"
+        android:layout_width="392dp"
+        android:layout_height="413dp"
+        android:layout_below="@+id/spinner_dispaly_gouvernorat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:padding="6dp"
+        android:text="@string/delegations"
+        android:textSize="21sp"
+            android:textColor="#7E4DBD"
+        android:shadowColor="@color/black"
+        android:textStyle="italic|bold"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <Spinner
+        android:id="@+id/spinner_dispaly_delegation"
+        style="@style/Widget.AppCompat.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_tunisian_discrits"
+        android:layout_marginTop="-320dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:outlineAmbientShadowColor="#F474E0"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/reservationbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_dispaly_delegation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:shadowRadius="25"
+        android:text="@string/boutton_resrevation"
+        android:textAlignment="center"
+        android:textColor="#AAAAAA"
+        android:textStyle="bold"
+        app:backgroundTint="#8533ED" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-17dp"
+        android:padding="0dp"
+        app:srcCompat="@drawable/group_1" />
+
+
+</RelativeLayout>

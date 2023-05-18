@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3DFE9"
+    tools:context=".activity3">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/group_1" />
+
+    <TextView
+        android:id="@+id/Ticket_actuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Ticket actuel :"
+        android:textColor="#7E4DBD"
+        android:textSize="16sp"
+        android:textStyle="italic|bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Ticket_votre_ticket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ticket_actuel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="66dp"
+        android:text="Votre Ticket :"
+        android:textColor="#7E4DBD"
+        android:textSize="16sp"
+        android:textStyle="italic|bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/temps_estimee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ticket_votre_ticket"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="66dp"
+        android:text="Temps estimé : :"
+        android:textColor="#7E4DBD"
+        android:textSize="16sp"
+        android:textStyle="italic|bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/annulerreservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temps_estimee"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="40dp"
+        android:shadowRadius="25"
+        android:text="Anuuler la resrvtaion"
+        android:textAlignment="center"
+        android:textColor="#AAAAAA"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ticket_actuel"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-27dp"
+        android:layout_marginEnd="166dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ticket_votre_ticket"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="161dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/tempestimé"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ticket_votre_ticket"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="161dp"
+        android:ems="10"
+        android:inputType="number" />
+
+
+</RelativeLayout>

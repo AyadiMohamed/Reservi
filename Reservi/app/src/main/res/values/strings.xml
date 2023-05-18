@@ -1,0 +1,360 @@
+<resources>
+    <string name="app_name">Reservi</string>
+    <string name="string_image_de_top">\'@string/image de top\'</string>
+    <string name="string_image_de_centre">string_image_de_centre</string>
+    <string name="gouvernorat">Gouvernorat*</string>
+    <string name="states">Gouvernorat*</string>
+    <string name="villes">Delegation*</string>
+    <string name="reservation" />
+    <string name="boutton_resrevation">Reservation</string>
+    <string name="delegations">Villes*</string>
+    <string-array name="array_tunisian_Gouvernorat">
+        <item>Selectionner le gouvernorat</item>
+        <item>Ariana</item>
+        <item>BenArous</item>
+        <item>Bizert</item>
+        <item>Béja</item>
+        <item>Gabés</item>
+        <item>Gafsa</item>
+        <item>Jendouba</item>
+        <item>Kairoun</item>
+        <item>Kesserine</item>
+        <item>kef</item>
+        <item>kbeli</item>
+        <item>Mahdia</item>
+        <item>Monastir</item>
+        <item>Medenine</item>
+        <item>Nabeul</item>
+        <item>Sfax</item>
+        <item>SidiBouzid</item>
+        <item>Siliana</item>
+        <item>Sousse</item>
+        <item>Tataouine</item>
+        <item>Touzeur</item>
+        <item>Tunis</item>
+        <item>Zagouan</item>
+    </string-array>
+    <string-array name="array_deffault_delegation">
+        <item>Selectionner la ville </item>
+    </string-array>
+    <string-array name="array_Ariana_delegation">
+        <item>ArianaVille</item>
+        <item>Ettadhamen</item>
+        <item>KalâAtElAndalous</item>
+        <item>LaSoukra</item>
+        <item>Mnihla</item>
+        <item>Raoued</item>
+        <item>SidiThabet</item>
+        <item>BenArous</item>
+    </string-array>
+
+
+    <string-array name="array_BenArous_delegation">
+        <item>BouMhelElBassatine</item>
+        <item>ElMourouj</item>
+        <item>Ezzahra</item>
+        <item>Fouchena</item>
+        <item>Hammamchott</item>
+        <item>HammamLif</item>
+        <item>MedinaJedida</item>
+        <item>Mohamedia</item>
+        <item>Mornag</item>
+        <item>Mégrine</item>
+        <item>Radés</item>
+    </string-array>
+    <string-array name="array_Bizerte_delegation">
+        <item>BizerteNord</item>
+        <item>BizerteSud</item>
+        <item>ElAlia</item>
+        <item>GharElMelh</item>
+        <item>Ghezala</item>
+        <item>Joumine</item>
+        <item>Mateur</item>
+        <item>MenzelBourgiba</item>
+        <item>MenzelJemil</item>
+        <item>RasJebel</item>
+        <item>Tinja</item>
+        <item>Utique</item>
+        <item>Zarzouna</item>
+    </string-array>
+    <string-array name="array_Béja_delegation">
+        <item>Amdoun</item>
+        <item>BéjaNord</item>
+        <item>BéjaSud</item>
+        <item>Goubellat</item>
+        <item>MedjezElBeb</item>
+        <item>Nefza</item>
+        <item>Thibar</item>
+        <item>Téboursouk</item>
+    </string-array>
+    <string-array name="array_Gabés_delegation">
+        <item>ElHamma</item>
+        <item>GabésMédina</item>
+        <item>GabésOuest</item>
+        <item>GabésSud</item>
+        <item>Ghannouch</item>
+        <item>Mareth</item>
+        <item>Matmata</item>
+        <item>MenzelElHabib</item>
+        <item>Métouia</item>
+        <item>NouvelleMatmata</item>
+    </string-array>
+    <string-array name="array_Gafsa_delegation">
+        <item>Belkhir</item>
+        <item>ElGuettar</item>
+        <item>ElKsar</item>
+        <item>GafsaNord</item>
+        <item>GafssaSud</item>
+        <item>Mdhilla</item>
+        <item>Moularés</item>
+        <item>Métlaoui</item>
+        <item>Rdeyef</item>
+        <item>Sened</item>
+        <item>"SidiAïch</item>
+    </string-array>
+    <string-array name="array_Jendouba_delegation">
+        <item>"AïnDraham</item>
+        <item>BaltaBouAouane</item>
+        <item>BouSalem</item>
+        <item>Fernana</item>
+        <item>Ghardimaou</item>
+        <item>JendoubaNord</item>
+        <item>JendoubaSud</item>
+        <item>OuedMeliz</item>
+        <item>Tabarka</item>
+    </string-array>
+    <string-array name="array_Kairoun_delegation">
+        <item>BouHajla</item>
+        <item>Chebika</item>
+        <item>Echrarda</item>ElAlâA
+        <item>Haffouz</item>
+        <item>HajebElAyoun</item>KairouanNord
+        <item>KairouanSud</item>
+        <item>Nasrallah</item>
+        <item>Oueslatia</item>
+        <item>Sbikha</item>
+    </string-array>
+    <string-array name="array_Kasserine_delegation">
+        <item>ElAyoun</item>
+        <item>Ezzouhour</item>
+        <item>Foussana</item>
+        <item>FéRiana</item>
+        <item>HassiElFerid</item>
+        <item>HaïDra</item>
+        <item>Jedelienne</item>
+        <item>KasserineNord</item>
+        <item>KasserineSud</item>
+        <item>MajelBelAbbèS</item>
+        <item>SbeïTla</item>
+        <item>Sbiba</item>
+        <item>Thala</item>
+    </string-array>
+    <string-array name="array_Kef_delegation">
+        <item>Dahmani</item>
+        <item>ElKsour</item>
+        <item>JéRissa</item>
+        <item>KalaatSenan</item>
+        <item>KalâAtKhasba</item>
+        <item>KefEst</item>
+        <item>KefOuest</item>
+        <item>Nebeur</item>
+        <item>SakietSidiYoussef</item>
+        <item>Sers</item>
+        <item>Tajerouine</item>
+    </string-array>
+    <string-array name="array_KéBili_delegation">
+        <item>DouzNord</item>
+        <item>DouzSud</item>
+        <item>Faouar</item>
+        <item>KéBiliNord</item>
+        <item>KéBiliSu</item>
+        <item>SoukLahad</item>
+    </string-array>
+    <string-array name="array_Mahdia_delegation">
+        <item>BouMerdes</item>
+        <item>Chebba</item>
+        <item>Chorbane</item>
+        <item>ElBradâA</item>
+        <item>ElJem</item>
+        <item>Essouassi</item>
+        <item>Hebira</item>
+        <item>KsourEssef</item>
+        <item>Mahdiacentre</item>
+        <item>MelloulèChe</item>
+        <item>OuledChamekh</item>
+        <item>Rejiche</item>
+        <item>SidiAlouane</item>
+    </string-array>
+    <string-array name="array_Manouba_delegation">
+        <item>BorjElAmri</item>
+        <item>Djedeida</item>
+        <item>DouarHicher</item>
+        <item>ElBatan</item>
+        <item>LaManouba</item>
+        <item>Mornaguia</item>
+        <item>OuedEllil</item>
+        <item>Tebourba</item>
+
+    </string-array>
+    <string-array name="array_Monastir_delegation">
+        <item>Bekalta</item>
+        <item>Bembla</item>
+        <item>BeniHassen</item>
+        <item>Jemmal</item>
+        <item>KsarHellal</item>
+        <item>KsibetElMéDiouni</item>
+        <item>Moknine</item>
+        <item>Monastircentre</item>
+        <item>Ouerdanine</item>
+        <item>Sahline</item>
+        <item>SayadaLamtaBouHajar</item>
+        <item>TéBoulba</item>
+        <item>ZéRamdine</item>
+
+
+    </string-array>
+    <string-array name="array_MéDenine_delegation">
+        <item>BenGardane</item>
+        <item>BeniKhedache</item>
+        <item>DjerbaAjim</item>
+        <item>DjerbaHoumtSouk</item>
+        <item>DjerbaMidoun</item>
+        <item>MéDenineNord</item>
+        <item>MéDenineSud</item>
+        <item>SidiMakhlouf</item>
+        <item>Zarzis</item>
+
+    </string-array>
+    <string-array name="array_Nabeul_delegation">
+        <item>BouArgoub</item>
+        <item>BéNiKhalled</item>
+        <item>BéNiKhiar</item>
+        <item>DarChaâBaneElFehri</item>
+        <item>ElHaouaria</item>
+        <item>ElMida</item>
+        <item>Grombalia</item>
+        <item>HammamGhezèZe</item>
+        <item>Hammamet</item>
+        <item>Korba</item>
+        <item>KéLibia</item>
+        <item>MenzelBouzelfa</item>
+        <item>MenzelTemime</item>
+        <item>Nabeulcentre</item>
+        <item>Soliman</item>
+        <item>Takelsa</item>
+
+    </string-array>
+    <string-array name="array_Sfax_delegation">
+        <item>Agareb</item>
+        <item>BirAliBenKhalifa</item>
+        <item>ElAmra</item>
+        <item>ElHencha</item>
+        <item>GraïBa</item>
+        <item>Jebiniana</item>
+        <item>Kerkennah</item>
+        <item>MahrèS</item>
+        <item>MenzelChaker</item>
+        <item>SakietEddaïEr</item>
+        <item>SakietEzzit</item>
+        <item>SfaxOuest</item>
+        <item>SfaxSud</item>
+        <item>SfaxVille</item>
+        <item>Skhira</item>
+        <item>Thyna</item>
+    </string-array>
+    <string-array name="array_SidiBouzid_delegation">
+        <item>BirElHafey</item>
+        <item>CebbalaOuledAsker</item>
+        <item>Jilma</item>
+        <item>Meknassy</item>
+        <item>MenzelBouzaiane</item>
+        <item>Mezzouna</item>
+        <item>OuledHaffouz</item>
+        <item>Regueb</item>
+        <item>SidiAliBenAoun</item>
+        <item>SidiBouzidEst</item>
+        <item>SidiBouzidOuest</item>
+        <item>SoukJedid</item>
+
+    </string-array>
+    <string-array name="array_Siliana_delegation">
+        <item>Bargou</item>
+        <item>BouArada</item>
+        <item>ElAroussa</item>
+        <item>ElKrib</item>
+        <item>GaâFour</item>
+        <item>Kesra</item>
+        <item>Makthar</item>
+        <item>Rouhia</item>
+        <item>SidiBouRouis</item>
+        <item>SilianaNord</item>
+        <item>SilianaSud</item>
+    </string-array>
+    <string-array name="array_Sousse_delegation">
+        <item>Akouda</item>
+        <item>Bouficha</item>
+        <item>Enfida</item>
+        <item>HammamSousse</item>
+        <item>Hergla</item>
+        <item>KalâAKebira</item>
+        <item>KalâASeghira</item>
+        <item>Kondar</item>
+        <item>MSaken</item>
+        <item>SidiBouAli</item>
+        <item>SidiElHani</item>
+        <item>SousseJawhara</item>
+        <item>SousseMéDina</item>
+        <item>SousseRiadh</item>
+        <item>SousseSidiAbdelhamid</item>
+    </string-array>
+    <string-array name="array_Tataouine_delegation">
+        <item>BirLahmar</item>
+        <item>Dehiba</item>
+        <item>Ghomrassen</item>
+        <item>Remada</item>
+        <item>SmâR</item>
+        <item>TataouineNord</item>
+        <item>TataouineSud</item>
+    </string-array>
+    <string-array name="array_Tozeur_delegation">
+        <item>Degache</item>
+        <item>Hazoua</item>
+        <item>Nefta</item>
+        <item>Tameghza</item>
+        <item>Tozeurcentre</item>
+    </string-array>
+    <string-array name="array_Tunis_delegation">
+        <item>BabElBhar</item>
+        <item>BabSouika</item>
+        <item>Carthage</item>
+        <item>CitéElKhadra</item>
+        <item>DjebelJelloud</item>
+        <item>ElKabaria</item>
+        <item>ElMenzah</item>
+        <item>ElOmrane</item>
+        <item>ElOmraneSupéRieur</item>
+        <item>ElOuardia</item>
+        <item>Ettahrir</item>
+        <item>Ezzouhour</item>
+        <item>HraïRia</item>
+        <item>LaBardo</item>
+        <item>LaGoulette</item>
+        <item>LaMarsa</item>
+        <item>LeKram</item>
+        <item>MéDina</item>
+        <item>SidiElBéChir</item>
+        <item>SidiHassine</item>
+        <item>SéJoumi</item>
+
+    </string-array>
+    <string-array name="array_Zaghouan_delegation">
+        <item>BirMcherga</item>
+        <item>ElFahs</item>
+        <item>Nadhour</item>
+        <item>Saouaf</item>
+        <item>Zaghouancentre</item>
+        <item>Zriba</item>
+    </string-array>
+
+
+</resources>
